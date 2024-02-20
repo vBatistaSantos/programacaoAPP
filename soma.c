@@ -90,6 +90,9 @@ int main(){
             
             case 0:
                 break;
+            case 1:
+                exibirProdutos(produto,nCadastrados);
+                break;
             default:
                 cadastrarProduto(produto,nCadastrados);
                 nCadastrados ++;
